@@ -1,0 +1,28 @@
+{
+  "name": "created-browser-history",
+  "version": "0.1.2",
+  "description": "Created browser history",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && ./node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riim/created-browser-history.git"
+  },
+  "author": "Dmitry Vibe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Riim/created-browser-history/issues"
+  },
+  "homepage": "https://github.com/Riim/created-browser-history#readme",
+  "devDependencies": {
+    "typescript": "^2.4.0"
+  },
+  "dependencies": {
+    "@types/history": "^4.5.2",
+    "history": "^4.6.2"
+  }
+}
